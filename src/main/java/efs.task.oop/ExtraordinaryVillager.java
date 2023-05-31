@@ -37,7 +37,7 @@ public class ExtraordinaryVillager extends Villager {
 
     @Override
     public void attack(Fighter victim) {
-        // ExtraordinaryVillager does not attack
+        victim.takeHit(0);
     }
 
     @Override
